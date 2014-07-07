@@ -12,6 +12,6 @@ This script is written by AxeCop and only placed here for an easy download in my
 1. Open the ***init.sqf*** in the root of your mission folder and paste the following at the bottom of the if(!isDedicated) code block:
 
 	~~~~java
-  //Auto-Refuel
-  execVM “service_point\service_point.sqf”;
+	//Auto-Refuel
+	execVM "service_point\service_point.sqf";
 	~~~~
